@@ -30,7 +30,7 @@
                                                 <td><?= $user['subtotal'];?></td>
                                                 <td><?= $user['meja'];?></td>
                                                 <td>
-                                                    <a href="<?= base_url('dashboard/delete_cart/'.$user['id'])?>" class="btn btn-danger btn-circle">
+                                                    <a href="<?= base_url('android/delete_cart/'.$user['id'])?>" class="btn btn-danger btn-circle">
                                                        Delete
                                                 </a>
                                             </tr>
